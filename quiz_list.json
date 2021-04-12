@@ -1,0 +1,54 @@
+{
+  "quiz_list": {
+    "quiz_title": {
+      "questions_count": 3,
+      "description": "Cool quiz!",
+      "quiz_start": "07.04.2021",
+      "quiz_end": "10.04.2021",
+      "filter": {
+        "age_range": [
+          0,
+          100
+        ],
+        "sex": [
+          "male",
+          "female"
+        ],
+        "cities": [
+          "all"
+        ]
+      },
+      "questions": [
+        {
+          "text": "Вы кУрИтЕ?",
+          "question_type": "one_answer",
+          "answers_count": 2,
+          "answers": [
+            "Да",
+            "Нет"
+          ]
+        },
+        {
+          "text": "Выберите 2 ответа, которые лучше всего Вас описывают",
+          "question_type": "multiple_answer",
+          "select_range": [
+            1,
+            2
+          ],
+          "answers_count": 5,
+          "answers": [
+            "Крутой",
+            "Активный",
+            "Весёлый",
+            "Грустный",
+            "Никакой"
+          ]
+        },
+        {
+          "text": "Оцените опрос",
+          "question_type": "seek_bar",
+        }
+      ]
+    }
+  }
+}
